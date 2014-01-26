@@ -1,6 +1,8 @@
-# Casper
+# Casper (outofscope.com)
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+Variant of the default theme for [Ghost](http://github.com/tryghost/ghost/).
+
+This version contains code specific to the [Out of Scope](http://www.outofscope.com) blog (analytics).
 
 ## Copyright & License
 
