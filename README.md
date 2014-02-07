@@ -4,6 +4,24 @@ Variant of the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 This version contains code specific to the [Out of Scope](http://www.outofscope.com) blog (analytics).
 
+# Merging TryGhost/Casper
+
+First, if you haven't set the *upstream* remote yet, you need to set it to point to TryGhost/Casper.
+
+```
+$ git remote add upstream git@github.com:TryGhost/Casper.git
+```
+
+Once the *upstream* remote is setup, fetch the changes and merge them.
+
+```
+# Fetch the latest changes from TryGhost/Casper (upstream remote)
+$ git fetch upstream
+
+# Merge master from upstream
+$ git merge upstream/master master
+```
+
 ## Copyright & License
 
 Copyright (C) 2014 Ghost Foundation - Released under the MIT License.
