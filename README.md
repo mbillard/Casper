@@ -1,8 +1,8 @@
-# Casper (outofscope.com)
+# Casper (gogosse.com)
 
 Variant of the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
-This version contains code specific to the [Out of Scope](http://www.outofscope.com) blog (analytics).
+This version contains code specific to the [Gogosse](http://www.gogosse.com) blog (analytics).
 
 # Merging TryGhost/Casper
 
