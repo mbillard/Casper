@@ -4,13 +4,51 @@
 
 /*
 
-    1. Prism
-    2. Disqus
+    1. Grid
+    2. Prism
+    3. Disqus
+    4. Misc
 
  */
 
 /* ==========================================================================
-   1. Prism
+   1. Grid
+   ========================================================================== */
+
+.row, .col-1-2 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+}
+[class*='col-']:last-child {
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  [class*='col-'] {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+
+/* ==========================================================================
+   2. Prism
    ========================================================================== */
 
 pre[class*=language-] {
@@ -25,9 +63,18 @@ pre[class*="language-"]:after {
 
 
 /* ==========================================================================
-   2. Disqus
+   3. Disqus
    ========================================================================== */
 
 #disqus_thread {
   margin-top: 6rem;
+}
+
+
+/* ==========================================================================
+   4. Misc
+   ========================================================================== */
+
+.text-center {
+  text-align: center;
 }
