@@ -4,15 +4,65 @@
 
 /*
 
-    1. Grid
-    2. Prism
-    3. Disqus
-    4. Misc
+    Logo
+    Links
+    Grid
+    Prism
+    Disqus
+    Misc
 
  */
 
 /* ==========================================================================
-   1. Grid
+   Logo
+   ========================================================================== */
+
+.main-header.with-oos-logo {
+  background: #fdfdfd;
+  min-height: inherit;
+  height: inherit;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.oos-logo .root-link {
+  font-family: 'Source Code Pro', Consolas, Monaco, 'Andale Mono', monospace;
+  font-weight: bold;
+  font-size: 32px;
+  white-space: nowrap;
+  text-transform: lowercase;
+}
+
+.root-link:-webkit-any-link {
+  text-decoration: none;
+}
+
+.oos-bracket {
+  color: #dedede;
+}
+.oos {
+  color: #333;
+}
+
+
+/* ===
+   Links
+   === */
+
+a {
+  color: #fe4365;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #ff5f00;
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Grid
    ========================================================================== */
 
 .row, .col-1-2 {
@@ -48,8 +98,14 @@
 
 
 /* ==========================================================================
-   2. Prism
+   Prism
    ========================================================================== */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: black;
+  font-family: 'Source Code Pro', Consolas, Monaco, 'Andale Mono', monospace;
+}
 
 pre[class*=language-] {
   padding-right: 0;
@@ -63,7 +119,7 @@ pre[class*="language-"]:after {
 
 
 /* ==========================================================================
-   3. Disqus
+   Disqus
    ========================================================================== */
 
 #disqus_thread {
