@@ -25,6 +25,10 @@
   margin-bottom: 4rem;
 }
 
+.main-header.with-oos-logo .main-nav {
+  padding-top: 0;
+}
+
 .oos-logo {
   font-family: 'Source Code Pro', Consolas, Monaco, 'Andale Mono', monospace;
   font-size: 3rem;
