@@ -21,15 +21,15 @@
   background: #fdfdfd;
   min-height: inherit;
   height: inherit;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
-.oos-logo .root-link {
+.oos-logo {
   font-family: 'Source Code Pro', Consolas, Monaco, 'Andale Mono', monospace;
+  font-size: 3rem;
   font-weight: bold;
-  font-size: 32px;
-  white-space: nowrap;
+  letter-spacing: 0;
   text-transform: lowercase;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .oos-bracket {
-  color: #dedede;
+  color: #fe4365;
 }
 .oos {
   color: #333;
@@ -133,4 +133,8 @@ pre[class*="language-"]:after {
 
 .text-center {
   text-align: center;
+}
+
+blockquote {
+  border-left-color: #fe4365;
 }
