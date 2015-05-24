@@ -138,3 +138,7 @@ pre[class*="language-"]:after {
 blockquote {
   border-left-color: #fe4365;
 }
+
+.post-ads {
+  margin-bottom: 10rem;
+}
